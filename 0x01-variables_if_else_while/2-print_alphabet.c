@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * Main - print alphabets in lowercase
- * 
+ * followed by a line
  * Return: 0
  */
 
