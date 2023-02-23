@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -9,10 +8,14 @@
 
 int main(void)
 {
-	char ch;
+	char ch[] = "_putchar";
 
-	ch = "_putchar";
-	_putchar(ch);
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(ch[c]);
+	}
 	_putchar('\n');
 	return (0);
 }
