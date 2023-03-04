@@ -9,7 +9,9 @@
 
 char *leet(char *str)
 {
-	int i, j, k;
+	int i;
+	int j;
+	int k;
 
 	char l[] = "OoLlEeAaTt";
 	char m[] = "0011334477";
@@ -21,8 +23,10 @@ char *leet(char *str)
 		while (l[j] != '\0')
 		{
 			if (str[i] == l[j])
+			{
 				k = j;
 				str[i] = m[k];
+			}
 		}
 		j++;
 	}
