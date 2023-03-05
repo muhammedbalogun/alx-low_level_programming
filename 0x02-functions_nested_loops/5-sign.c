@@ -2,7 +2,7 @@
 
 /**
  * print_sign - function that prints the sign of a number
- *@n: int variable
+ *@n: integer variable
  *
  * Return: 0
  */
