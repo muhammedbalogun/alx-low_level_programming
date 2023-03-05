@@ -15,8 +15,10 @@ int main(void)
 		putchar(ch);
 
 		if (ch != '9')
+		{
 			putchar(',');
 			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
