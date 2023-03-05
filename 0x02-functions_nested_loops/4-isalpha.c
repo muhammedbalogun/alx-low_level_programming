@@ -3,7 +3,7 @@
 /**
  * _isalpha - function that checks for alphabetic character
  * @c: int variable
- * 
+ *
  * Return: 1 or 0
  */
 
