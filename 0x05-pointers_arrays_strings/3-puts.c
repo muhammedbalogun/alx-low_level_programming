@@ -2,18 +2,18 @@
 
 /**
  * _puts - print a string followed by a new line
- * @s: pointer to a string to print
+ * @str: pointer to a string to print
  *
  * Return: 0
  */
 
-void _puts(char *s)
+void _puts(char *str)
 {
 	int i = 0;
 
-	while (s[i])
+	while (str[i])
 	{
-		_putchar(s[i]);
+		_putchar(str[i]);
 		i++;
 	}
 	_putchar('\n');
