@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int is_prime(int n, int i);
 int _div(int m, int n);
 int _sqrt(int n, int i);
 int _putchar(char c);
