@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	output = func(arg1, arg2);
+	output = opts(arg1, arg2);
 
 	printf("%d\n", output);
 
